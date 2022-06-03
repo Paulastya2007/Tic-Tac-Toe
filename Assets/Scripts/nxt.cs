@@ -16,7 +16,7 @@ public class nxt : MonoBehaviour
         boad.SetActive(false);turncanger.SetActive(chance);
     }
     public void restart() {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("ai");
     }
         void Update()
     {

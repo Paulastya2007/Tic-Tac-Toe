@@ -15,4 +15,7 @@ public class menu : MonoBehaviour
     public void rettomen() {
         SceneManager.LoadScene("unt");
     }
+    public void harai() {
+        SceneManager.LoadScene("1Player");
+    }
 }

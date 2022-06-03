@@ -21,7 +21,7 @@ public class main : MonoBehaviour
         h.SetActive(false);
     }
 public void Restart(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("SampleScene");
 }
     void LateUpdate()
     {
